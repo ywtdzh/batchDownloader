@@ -1,0 +1,1 @@
+JSON.stringify(Array.from(document.querySelectorAll('.detail-ctc p img')).map(e => e.src.replace(/\?=.*$/, ''))).replace(/,|"/g, '\n').replace(/\n+/g, '\n')
